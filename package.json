@@ -1,0 +1,25 @@
+{
+  "name": "wa-cuaca-bot",
+  "version": "1.0.0",
+  "description": "WhatsApp bot untuk cek cuaca, runtime bot, dan info user",
+  "main": "src/index.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node src/index.js",
+    "check": "node --check src/index.js && node --check src/services/weather.js"
+  },
+  "keywords": [
+    "whatsapp",
+    "baileys",
+    "weather",
+    "bot"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "@whiskeysockets/baileys": "^6.7.8",
+    "axios": "^1.7.7",
+    "chalk": "^4.1.2",
+    "pino": "^9.4.0"
+  }
+}
